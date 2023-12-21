@@ -2,8 +2,8 @@
 Indicatieregister 2 - versie 1.0: 21-12-2023
 
 |        ENTITEIT   / ATTRIBUUT       | IRA0001 | IRA0002 | IRA0003 |
-|:-----------------------------------:|:-------:|:-------:|:-------:|
-| Wlzindicatie                        |         |         |         |
+|------------------------------------:|:-------:|:-------:|:-------:|
+| **Wlzindicatie**                        |         |         |         |
 | wlzindicatieID                      |    R    |    R    |    R    |
 | bsn                                 |    R    |    R    |    R    |
 | besluitnummer                       |    R    |    R    |    R    |
@@ -15,33 +15,40 @@ Indicatieregister 2 - versie 1.0: 21-12-2023
 | initieelVerantwoordelijkZorgkantoor |    R    |    R    |    R    |
 | vervaldatum                         |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
-| Stoornis                            |         |         |         |
+|                                     |         |         |         |
+| **Stoornis**                            |         |         |         |
 | grondslag                           |    R    |    R    |    R    |
 | diagnoseCodelijst                   |    R    |    R    |    R    |
 | diagnoseSubcodelijst                |    R    |    R    |    R    |
 | ziektebeeldStoornis                 |    R    |    R    |    R    |
 | prognose                            |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
-| StoornisScore                       |         |         |         |
+|                                     |         |         |         |
+| **StoornisScore**                       |         |         |         |
 | stoornisVraag                       |    R    |    R    |    R    |
 | StoornisScore                       |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
-| Wzd                                 |         |         |         |
+|                                     |         |         |         |
+| **Wzd**                                 |         |         |         |
 | wzdVerklaring                       |    R    |    R    |    R    |
 | ingangsdatum                        |    R    |    R    |    R    |
 | einddatum                           |    R    |    R    |    R    |
-| Grondslag                           |         |         |         |
+|                                     |         |         |         |
+| **Grondslag**                           |         |         |         |
 | grondslag                           |    R    |    R    |    R    |
 | volgorde                            |    R    |    R    |    R    |
-| Beperking                           |         |         |         |
+|                                     |         |         |         |
+| **Beperking**                           |         |         |         |
 | categorie                           |    R    |    R    |    R    |
 | duur                                |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
-| BeperkingScore                      |         |         |         |
+|                                     |         |         |         |
+| **BeperkingScore**                      |         |         |         |
 | beperkingVraag                      |    R    |    R    |    R    |
 | beperkingScore                      |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
-| GeindiceerdZorgzwaartepakket        |         |         |         |
+|                                     |         |         |         |
+| **GeindiceerdZorgzwaartepakket**        |         |         |         |
 | zzpCode                             |    R    |    R    |    R    |
 | ingangsdatum                        |    R    |    R    |    R    |
 | einddatum                           |    R    |    R    |    R    |
@@ -49,7 +56,8 @@ Indicatieregister 2 - versie 1.0: 21-12-2023
 | instellingVoorkeur                  |    R    |    R    |    R    |
 | financiering                        |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
-| Client                              |         |         |         |
+|                                     |         |         |         |
+| **Client**                              |         |         |         |
 | bsn                                 |    R    |    R    |    R    |
 | gebeimeClient                       |    R    |    R    |    R    |
 | geboortedatum                       |    R    |    R    |    R    |
@@ -69,7 +77,8 @@ Indicatieregister 2 - versie 1.0: 21-12-2023
 | communicatievorm                    |    R    |    R    |    R    |
 | taal                                |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
-| ContactPersoon                      |         |         |         |
+|                                     |         |         |         |
+| **ContactPersoon**                      |         |         |         |
 | relatienummer                       |    R    |    R    |    R    |
 | volgorde                            |    R    |    R    |    R    |
 | soortRelatie                        |    R    |    R    |    R    |
@@ -87,7 +96,8 @@ Indicatieregister 2 - versie 1.0: 21-12-2023
 | geboortedatumgebruik                |    R    |    R    |    R    |
 | ingangsdatum                        |    R    |    R    |    R    |
 | einddatum                           |    R    |    R    |    R    |
-| Adres                               |         |         |         |
+|                                     |         |         |         |
+| **Adres**                               |         |         |         |
 | adressoort                          |    R    |    R    |    R    |
 | straatnaam                          |    R    |    R    |    R    |
 | huisnummer                          |    R    |    R    |    R    |
@@ -99,12 +109,14 @@ Indicatieregister 2 - versie 1.0: 21-12-2023
 | aanduidingWoonadres                 |    R    |    R    |    R    |
 | ingangsdatum                        |    R    |    R    |    R    |
 | einddatum                           |    R    |    R    |    R    |
-| Telefoon                            |         |         |         |
+|                                     |         |         |         |
+| **Telefoon**                            |         |         |         |
 | landnummer                          |    R    |    R    |    R    |
 | telefoonnummer                      |    R    |    R    |    R    |
 | ingangsdatum                        |    R    |    R    |    R    |
 | einddatum                           |    R    |    R    |    R    |
-| Email                               |         |         |         |
+|                                     |         |         |         |
+| **Email**                               |         |         |         |
 | emailadres                          |    R    |    R    |    R    |
 | ingangsdatum                        |    R    |    R    |    R    |
 | einddatum                           |    R    |    R    |    R    |
