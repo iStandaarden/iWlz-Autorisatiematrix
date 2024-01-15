@@ -1,6 +1,8 @@
 # Autorisatiematrix Indicatieregister 2
 Indicatieregister 2 - versie 1.0: 21-12-2023
 
+[Informatiemodel Indicatieregister 2](https://informatiemodel.istandaarden.nl/iWlz-Indicatie-2/)
+
 |        ENTITEIT   / ATTRIBUUT       | IRA0001 | IRA0002 | IRA0003 |
 |------------------------------------:|:-------:|:-------:|:-------:|
 | **Wlzindicatie**                        |         |         |         |
