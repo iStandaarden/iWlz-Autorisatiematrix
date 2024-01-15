@@ -1,3 +1,4 @@
+![header](/src/ZinBanner.png "template_header")
 # iWlz-Autorisatiematrix van het iWlz netwerkmodel. 
 
 In de autorisatiematrix is per autorisatieregel de toegang op attribuutniveau vastgelegd
