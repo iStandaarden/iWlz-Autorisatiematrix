@@ -1,5 +1,5 @@
 # Autorisatiematrix Indicatieregister 2
-Indicatieregister 2 - versie 1.0: 21-12-2023
+Indicatieregister 2 - versie 1.1: 22-08-2024
 
 [Informatiemodel Indicatieregister 2](https://informatiemodel.istandaarden.nl/iWlz-Indicatie-2/)
 
@@ -84,7 +84,7 @@ Indicatieregister 2 - versie 1.0: 21-12-2023
 | relatienummer                       |    R    |    R    |    R    |
 | volgorde                            |    R    |    R    |    R    |
 | soortRelatie                        |    R    |    R    |    R    |
-| organisatienaam                     |    R    |    R    |    R    |
+| Rol                                 |    R    |    R    |    R    |
 | geslachtsnaam                       |    R    |    R    |    R    |
 | voorvoegselGeslachtsnaam            |    R    |    R    |    R    |
 | partnernaam                         |    R    |    R    |    R    |
