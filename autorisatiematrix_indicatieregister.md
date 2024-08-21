@@ -28,7 +28,7 @@ Indicatieregister 2 - versie 1.1: 22-08-2024
 |                                     |         |         |         |
 | **StoornisScore**                       |         |         |         |
 | stoornisVraag                       |    R    |    R    |    R    |
-| StoornisScore                       |    R    |    R    |    R    |
+| stoornisScore                       |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **Wzd**                                 |         |         |         |
@@ -84,7 +84,7 @@ Indicatieregister 2 - versie 1.1: 22-08-2024
 | relatienummer                       |    R    |    R    |    R    |
 | volgorde                            |    R    |    R    |    R    |
 | soortRelatie                        |    R    |    R    |    R    |
-| Rol                                 |    R    |    R    |    R    |
+| rol                                 |    R    |    R    |    R    |
 | geslachtsnaam                       |    R    |    R    |    R    |
 | voorvoegselGeslachtsnaam            |    R    |    R    |    R    |
 | partnernaam                         |    R    |    R    |    R    |
