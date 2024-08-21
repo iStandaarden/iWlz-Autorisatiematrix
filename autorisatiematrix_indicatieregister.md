@@ -85,6 +85,7 @@ Indicatieregister 2 - versie 1.1: 22-08-2024
 | volgorde                            |    R    |    R    |    R    |
 | soortRelatie                        |    R    |    R    |    R    |
 | rol                                 |    R    |    R    |    R    |
+| relatie                             |    R    |    R    |    R    |
 | geslachtsnaam                       |    R    |    R    |    R    |
 | voorvoegselGeslachtsnaam            |    R    |    R    |    R    |
 | partnernaam                         |    R    |    R    |    R    |
