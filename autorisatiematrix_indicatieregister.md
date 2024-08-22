@@ -19,6 +19,7 @@ Indicatieregister 2 - versie 1.1: 22-08-2024
 | commentaar                          |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **Stoornis**                            |         |         |         |
+| stoornisID                          |    R    |    R    |    R    |
 | grondslag                           |    R    |    R    |    R    |
 | diagnoseCodelijst                   |    R    |    R    |    R    |
 | diagnoseSubcodelijst                |    R    |    R    |    R    |
@@ -27,30 +28,36 @@ Indicatieregister 2 - versie 1.1: 22-08-2024
 | commentaar                          |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **StoornisScore**                       |         |         |         |
+| stoornisScoreID                     |    R    |    R    |    R    |
 | stoornisVraag                       |    R    |    R    |    R    |
 | stoornisScore                       |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **Wzd**                                 |         |         |         |
+| wzdID                               |    R    |    R    |    R    |
 | wzdVerklaring                       |    R    |    R    |    R    |
 | ingangsdatum                        |    R    |    R    |    R    |
 | einddatum                           |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **Grondslag**                           |         |         |         |
+| grondslagID                         |    R    |    R    |    R    |
 | grondslag                           |    R    |    R    |    R    |
 | volgorde                            |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **Beperking**                           |         |         |         |
+| beperkingID                         |    R    |    R    |    R    |
 | categorie                           |    R    |    R    |    R    |
 | duur                                |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **BeperkingScore**                      |         |         |         |
+| beperkingScoreID                    |    R    |    R    |    R    |
 | beperkingVraag                      |    R    |    R    |    R    |
 | beperkingScore                      |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **GeindiceerdZorgzwaartepakket**        |         |         |         |
+| geindiceerdZorgzwaartepakketID      |    R    |    R    |    R    |
 | zzpCode                             |    R    |    R    |    R    |
 | ingangsdatum                        |    R    |    R    |    R    |
 | einddatum                           |    R    |    R    |    R    |
@@ -60,6 +67,7 @@ Indicatieregister 2 - versie 1.1: 22-08-2024
 | commentaar                          |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **Client**                              |         |         |         |
+| clientID                            |    R    |    R    |    R    |
 | bsn                                 |    R    |    R    |    R    |
 | gebeimeClient                       |    R    |    R    |    R    |
 | geboortedatum                       |    R    |    R    |    R    |
@@ -80,7 +88,11 @@ Indicatieregister 2 - versie 1.1: 22-08-2024
 | taal                                |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
 |                                     |         |         |         |
+| **ContactGegevens**                      |         |         |         |
+| contactgegevensID                   |    R    |    R    |    R    |
+|                                     |         |         |         |
 | **ContactPersoon**                      |         |         |         |
+| contactPersoonID                    |    R    |    R    |    R    |
 | relatienummer                       |    R    |    R    |    R    |
 | volgorde                            |    R    |    R    |    R    |
 | soortRelatie                        |    R    |    R    |    R    |
@@ -101,6 +113,7 @@ Indicatieregister 2 - versie 1.1: 22-08-2024
 | einddatum                           |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **Adres**                               |         |         |         |
+| adresID                             |    R    |    R    |    R    |
 | adressoort                          |    R    |    R    |    R    |
 | straatnaam                          |    R    |    R    |    R    |
 | huisnummer                          |    R    |    R    |    R    |
@@ -114,12 +127,14 @@ Indicatieregister 2 - versie 1.1: 22-08-2024
 | einddatum                           |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **Telefoon**                            |         |         |         |
+| telefoonID                          |    R    |    R    |    R    |
 | landnummer                          |    R    |    R    |    R    |
 | telefoonnummer                      |    R    |    R    |    R    |
 | ingangsdatum                        |    R    |    R    |    R    |
 | einddatum                           |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **Email**                               |         |         |         |
+| emailID                             |    R    |    R    |    R    |
 | emailadres                          |    R    |    R    |    R    |
 | ingangsdatum                        |    R    |    R    |    R    |
 | einddatum                           |    R    |    R    |    R    |
