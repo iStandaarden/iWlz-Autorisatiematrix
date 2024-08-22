@@ -88,7 +88,7 @@ Indicatieregister 2 - versie 1.1: 22-08-2024
 | taal                                |    R    |    R    |    R    |
 | commentaar                          |    R    |    R    |    R    |
 |                                     |         |         |         |
-| **ContactGegevens**                      |         |         |         |
+| **Contactgegevens**                      |         |         |         |
 | contactgegevensID                   |    R    |    R    |    R    |
 |                                     |         |         |         |
 | **ContactPersoon**                      |         |         |         |
