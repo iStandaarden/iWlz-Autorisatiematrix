@@ -16,7 +16,6 @@ Bemiddelingsregister 1: versie 1.1 - 30-09-2024 (under construction)
 |                                    |         |         |         |         |         |         |         |         |         |         |         |
 |                    **Bemiddeling** |         |         |         |         |         |         |         |         |         |         |         |
 |                      bemiddelingID |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
-|                           clientID |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
 |                     wlzIndicatieID |    R    |    R    |         |         |    R    |    R    |         |         |    R    |    R    |         |
 |        verantwoordelijkZorgkantoor |    R    |    R    |         |         |    R    |    R    |         |         |    R    |    R    |         |
 |   verantwoordelijkheidIngangsdatum |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
@@ -24,14 +23,13 @@ Bemiddelingsregister 1: versie 1.1 - 30-09-2024 (under construction)
 |                                    |         |         |         |         |         |         |         |         |         |         |         |
 |        **Bemiddelingspecificatie** |         |         |         |         |         |         |         |         |         |         |         |
 |           bemiddelingspcificatieID |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
-|                   bemiddeldeIingID |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
 |                     leveringsvorm  |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
-|                           zzpCode  |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
+|                            zzpCode |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
 |            toewijzingIngangsdatum  |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
 |                         instelling |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
 |              uitvoerendZorgkantoor |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
 |                 vaststellingMoment |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
-|               toewijzingEinddatum  |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
+|                toewijzingEinddatum |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
 |                        percentage  |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
 |                      pgbPercentage |         |         |         |         |    R    |    R    |         |         |         |         |         |
 |                             opname |    R    |    R    |         |         |    R    |    R    |         |         |    R    |         |         |
@@ -42,23 +40,19 @@ Bemiddelingsregister 1: versie 1.1 - 30-09-2024 (under construction)
 |                                    |         |         |         |         |         |         |         |         |         |         |         |
 |                     **Overdracht** |         |         |         |         |         |         |         |         |         |         |         |
 |                       overdrachtID |         |         |         |         |         |         |         |         |    R    |         |         |
-|                     bemiddelingdID |         |         |         |         |         |         |         |         |    R    |         |         |
-|       verantwoordelijkZorgkantoor  |         |         |         |         |         |         |         |         |    R    |         |         |
+|        verantwoordelijkZorgkantoor |         |         |         |         |         |         |         |         |    R    |         |         |
 |                 vaststellingMoment |         |         |         |         |         |         |         |         |    R    |         |         |
 |                    overdrachtdatum |         |         |         |         |         |         |         |         |    R    |         |         |
 |                       verhuisdatum |         |         |         |         |         |         |         |         |    R    |         |         |
 |                                    |         |         |         |         |         |         |         |         |         |         |         |
 |         **Overdrachtspecificatie** |         |         |         |         |         |         |         |         |         |         |         |
 |           overdrachtspecificatieID |         |         |         |         |         |         |         |         |    R    |         |         |
-|            bemiddelingspecificatie |         |         |         |         |         |         |         |         |    R    |         |         |
-|                       overdrachtID |         |         |         |         |         |         |         |         |    R    |         |         |
 |                    leveringsstatus |         |         |         |         |         |         |         |         |    R    |         |         |
 |       leveringsstatusClassificatie |         |         |         |         |         |         |         |         |    R    |         |         |
 | oorspronkelijkeToewijzingEinddatum |         |         |         |         |         |         |         |         |    R    |         |         |
 |                                    |         |         |         |         |         |         |         |         |         |         |         |
 |                    **Regiehouder** |         |         |         |         |         |         |         |         |         |         |         |
 |                      regiehouderID |         |         |         |    R    |         |         |         |    R    |         |         |    R    |
-|                      bemiddelingID |         |         |         |    R    |         |         |         |    R    |         |         |    R    |
 |                         instelling |         |         |         |    R    |         |         |         |    R    |         |         |    R    |
 |                       ingangsdatum |         |         |         |    R    |         |         |         |    R    |         |         |    R    |
 |                          einddatum |         |         |         |    R    |         |         |         |    R    |         |         |    R    |
@@ -66,8 +60,6 @@ Bemiddelingsregister 1: versie 1.1 - 30-09-2024 (under construction)
 |                                    |         |         |         |         |         |         |         |         |         |         |         |
 |                **Contactgegevens** |         |         |         |         |         |         |         |         |         |         |         |
 |                  contactgegevensID |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
-|                           clientID |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
-|                   contactpersoonID |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
 |                         straatnaam |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
 |                         huisnummer |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
 |                         huisletter |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
@@ -83,11 +75,10 @@ Bemiddelingsregister 1: versie 1.1 - 30-09-2024 (under construction)
 |                       landnummer02 |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
 |                         emailadres |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
 |                       ingangsdatum |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
-|                         einddatum  |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
+|                          einddatum |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
 |                                    |         |         |         |         |         |         |         |         |         |         |         |
 |                 **Contactpersoon** |         |         |         |         |         |         |         |         |         |         |         |
 |                   contactpersoonID |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
-|                           clientID |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
 |                      relatienummer |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
 |                           volgorde |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
 |                       soortRelatie |         |         |    R    |         |         |         |    R    |         |    R    |         |         |
