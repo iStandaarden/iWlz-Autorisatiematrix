@@ -1,7 +1,7 @@
 # Autorisatiematrix Bemiddelingsregister 1
 Bemiddelingsregister 1: versie 1.1 - 30-09-2024 (under construction)
 
-[Informatiemodel Bemiddelingsregister 1](https://informatiemodel.istandaarden.nl/iWlz-Bemiddeling-1/)
+[Informatiemodel Bemiddelingsregister 1](https://informatiemodel.istandaarden.nl/informatiemodel/iwlz/netwerk/bemiddelingsregister-1/)
 
 <<- scroll ->>
 |             ENTITEIT   / ATTRIBUUT | BRA0001 | BRA0002 | BRA0004 | BRA0005 | BRA0006 | BRA0007 | BRA0008 | BRA0009 | BRA0010 | BRA0011 | BRA0012 |
