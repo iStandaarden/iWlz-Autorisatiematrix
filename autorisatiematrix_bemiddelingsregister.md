@@ -1,10 +1,12 @@
 # Autorisatiematrix Bemiddelingsregister 1
-Bemiddelingsregister 1: versie 1.1 - 30-09-2024 (under construction)
+Bemiddelingsregister 1: versie 1.1 - 30-09-2024 
 
 [Informatiemodel Bemiddelingsregister 1](https://informatiemodel.istandaarden.nl/informatiemodel/iwlz/netwerk/bemiddelingsregister-1/)
 
+
+
 <<- scroll ->>
-|             ENTITEIT   / ATTRIBUUT | BRA0001 | BRA0002 | BRA0004 | BRA0005 | BRA0006 | BRA0007 | BRA0008 | BRA0009 | BRA0010 | BRA0011 | BRA0012 |
+|             ENTITEIT   / ATTRIBUUT | <h4 id="bra0001">BRA0001</h4> | <h4 id="bra0002">BRA0002</h4> | <h4 id="bra0004">BRA0004</h4> | <h4 id="bra0005">BRA0005</h4> | <h4 id="bra0006">BRA0006</h4> | <h4 id="bra0007">BRA0007</h4> | <h4 id="bra0008">BRA0008</h4> | <h4 id="bra0009">BRA0009</h4> | <h4 id="bra0010">BRA0010</h4> | <h4 id="bra0011">BRA0011</h4> | <h4 id="bra0012">BRA0012</h4> |
 |-----------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |                        **Client**  |         |         |         |         |         |         |         |         |         |         |         |
 |                           clientID |    R    |         |         |         |    R    |         |         |         |    R    |         |         |
