@@ -12,5 +12,10 @@ Een autorisatieregel beschrijft per rol onder welke voorwaarde(n) en voor welke 
 - voor welke periode de toegang geldt (wanneer).
 
 ## register autorisatiematrix
-- [**Autorisatiematrix Indicatieregister 2**](/autorisatiematrix_indicatieregister.md)
-- [**Autorisatiematrix Bemiddelingsregister 1**](/autorisatiematrix_bemiddelingsregister.md)
+
+> [!NOTE]
+> De autorisatiematrices per register zijn verplaatst naar de afzonderlijke register koppelvlakspecificaties.
+> Ga voor:
+>  - [Indicatieregister](https://github.com/iStandaarden/iWlz-indicatie)
+>  - [Bemiddelingsregister](https://github.com/iStandaarden/iWlz-bemiddeling)
+>  - [Leveringsregister](https://github.com/iStandaarden/iWlz-levering)
