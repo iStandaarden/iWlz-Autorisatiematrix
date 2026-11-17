@@ -16,6 +16,6 @@ Een autorisatieregel beschrijft per rol onder welke voorwaarde(n) en voor welke 
 > [!NOTE]
 > De autorisatiematrices per register zijn verplaatst naar de afzonderlijke register koppelvlakspecificaties.
 > Ga voor:
->  - [Indicatieregister](https://github.com/iStandaarden/iWlz-indicatie)
->  - [Bemiddelingsregister](https://github.com/iStandaarden/iWlz-bemiddeling)
->  - [Leveringsregister](https://github.com/iStandaarden/iWlz-levering)
+>  - [Indicatieregister](https://istandaarden.github.io/koppelvlakspecificatie-netwerkmodel/current/indicatieregister/)
+>  - [Bemiddelingsregister](https://istandaarden.github.io/koppelvlakspecificatie-netwerkmodel/current/bemiddelingsregister/)
+>  - [Leveringsregister](https://istandaarden.github.io/koppelvlakspecificatie-netwerkmodel/current/leveringsregister/)
